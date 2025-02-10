@@ -28,7 +28,7 @@ const RouteConfig = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginComponent />} />
+        <Route path="login" element={<LoginComponent />} />
         <Route path="/signup" element={<SignUpComponent />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/policy" element={<PolicyPage />} />
